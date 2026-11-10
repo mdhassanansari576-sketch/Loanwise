@@ -1,0 +1,6 @@
+{
+  "name": "LoanWise",
+  "description": "Smart Loan, EMI & SIP Calculator with Education Loan moratorium planner, reducing-balance EMI engine, Step-up SIP projections, and database-backed dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
