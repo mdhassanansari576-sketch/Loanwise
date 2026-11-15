@@ -1,21 +1,10 @@
 package com.example
 
+import android.app.Activity
 import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
-import androidx.activity.viewModels
-import com.example.ui.LoanWiseApp
-import com.example.ui.MainViewModel
 
-class MainActivity : ComponentActivity() {
-    private val viewModel: MainViewModel by viewModels()
-
+class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContent {
-            LoanWiseApp(viewModel = viewModel)
-        }
     }
 }
